@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState, useCallback } from 'react';
 import { Player, Bullet, Enemy, EnemyType, Powerup, Particle, FloatingText, GameState, Perk } from '../types';
 import { sound } from '../sound';
 import { getRandomPerks } from '../perks';
+import { PWAInstallModal } from './PWAInstallModal';
 import {
   Volume2,
   VolumeX,
@@ -1528,6 +1529,9 @@ export const NeonGame: React.FC<Props> = () => {
 
         {/* Right: Wave & Controls */}
         <div className="flex items-center gap-2">
+          {/* PWA Install & QR Trigger */}
+          <PWAInstallModal />
+
           <div className="hidden sm:flex items-center gap-1 px-2.5 py-1 rounded-lg bg-slate-800/80 border border-slate-700 text-xs font-mono text-slate-300">
             <Swords className="w-3.5 h-3.5 text-cyan-400" />
             <span>WAVE {wave}</span>
