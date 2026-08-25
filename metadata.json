@@ -1,0 +1,6 @@
+{
+  "name": "Neon Survivor: Cyber Arcade",
+  "description": "중독성 넘치는 네온 아케이드 서바이벌 게임! 끊임없이 몰려오는 적들을 처치하고 파워업과 콤보로 최고 점수에 도전하세요.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
