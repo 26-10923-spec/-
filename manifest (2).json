@@ -1,0 +1,13 @@
+{
+  "background_color": "#ffffff",
+  "description": "수학·과학 교과서 및 연습장 문제별 맞춤 풀이와 사진 촬영 AI 질문 해결을 제공하는 친절한 학습 도우미 앱",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "dream-lime-five.vercel",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "dream-lime-five.vercel",
+  "start_url": "/",
+  "theme_color": "#ffffff",
+  "id": "jjjj Test"
+}
